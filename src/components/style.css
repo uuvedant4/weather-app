@@ -12,9 +12,9 @@
 :root {
   --rad: 0.7rem;
   --dur: 0.3s;
-  --color-dark: #2f2f2f;
-  --color-light: #fff;
-  --color-brand: #57bd84;
+  --color-dark: #1a1414;
+  --color-light: rgb(216, 216, 216);
+  --color-brand: #000000;
   --font-fam: "Lato", sans-serif;
   --height: 5rem;
   --btn-width: 6rem;
@@ -55,10 +55,10 @@ body {
 .widget .weatherInfo {
   flex: 0 0 70%;
   height: 40%;
-  background: #080705;
+  background: rgb(0, 0, 0);
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
@@ -87,11 +87,11 @@ body {
 .widget .date {
   flex: 0 0 30%;
   height: 40%;
-  background: #70c1b3;
+  background: #f88705;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: 800;
   text-align: center;
@@ -121,7 +121,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   align-items: center;
-  color: #70c1b3;
+  color: hsl(106, 89%, 41%);
   /* background-color: blanchedalmond; */
 }
 
@@ -129,7 +129,7 @@ body {
   text-align: left;
   font-weight: 600;
   text-transform: capitalize;
-  color: #080705;
+  color: #000000;
   font-size: 15px;
 }
 
@@ -154,16 +154,16 @@ body {
 }
 
 .searchTerm:focus {
-  color: #00b4cc;
+  color: #000000;
 }
 
 .searchButton {
   width: 80px;
   height: 32px;
   border: none;
-  background: #048b9c;
+  background: #14c714;
   text-align: center;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
@@ -172,7 +172,7 @@ body {
 }
 
 .searchButton:hover {
-  background-color: #17b8ce;
+  background-color: #33b819;
 }
 
 .wrap {
